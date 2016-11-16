@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_my"
+            android:icon="@mipmap/my"
+            android:title="个人中心"/>
+
+        <item android:id="@+id/nav_message"
+            android:icon="@mipmap/message"
+            android:title="我的消息"/>
+
+        <item android:id="@+id/nav_sign"
+            android:icon="@mipmap/sign"
+            android:title="每日签到"/>
+
+        <item android:id="@+id/nav_QRcode"
+            android:icon="@mipmap/qrcode"
+            android:title="扫一扫"/>
+    </group>
+
+    <item android:title="设置">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/nav_attribute"
+                android:icon="@mipmap/attribute"
+                android:title="属性设置"/>
+
+            <item android:id="@+id/nav_skin"
+                android:icon="@mipmap/skin"
+                android:title="皮肤"/>
+
+            <item android:id="@+id/nav_we"
+                android:icon="@mipmap/we"
+                android:title="关于我们"/>
+            </group>
+        </menu>
+    </item>
+</menu>
